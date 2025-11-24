@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sobre | Douglas Galhardo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Outfit:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="index.html" class="logo"
+          >DG<span style="color: var(--primary-purple)">.</span></a
+        >
+        <button class="mobile-menu-btn">☰</button>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="sobre.html" class="nav-link active">Sobre</a></li>
+          <li><a href="projetos.html" class="nav-link">Projetos</a></li>
+          <li><a href="contato.html" class="nav-link">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header-simple">
+      <div class="container">
+        <h1>Sobre Mim</h1>
+        <p>Minha jornada, experiências e o meu universo de tecnologias</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid-2" style="align-items: center">
+          <div style="padding-right: 2rem">
+            <h2 class="section-title" style="text-align: left">
+              Minha História
+            </h2>
+            <div
+              class="card-glass"
+              style="
+                border: none;
+                background: transparent;
+                padding: 0;
+                box-shadow: none;
+              "
+            >
+              <p style="margin-bottom: 1.5rem; font-size: 1.1rem">
+                Sou <strong>Douglas Galhardo</strong>, um profissional
+                apaixonado por conectar pontos. Com um background sólido em
+                <strong>Customer Success</strong> e
+                <strong>Inteligência de Negócios</strong>, estou em uma
+                empolgante transição para a
+                <strong>Engenharia de Software</strong>.
+              </p>
+              <p style="font-size: 1.1rem">
+                Minha trajetória não é linear, e isso é minha maior força. Ela
+                combina a empatia de lidar com clientes, o rigor analítico dos
+                dados e a criatividade da programação. Meu objetivo é criar
+                soluções tecnológicas que não apenas funcionem, mas que gerem
+                <strong>impacto real e positivo</strong> na vida das pessoas.
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h2 class="section-title" style="text-align: left">Trajetória</h2>
+            <div class="timeline-box">
+              <div class="timeline-title">IFGEL – Projeto Social (IFRJ)</div>
+              <p style="color: var(--text-muted)">
+                Liderança na produção e logística de álcool em gel durante a
+                pandemia.
+              </p>
+            </div>
+            <div class="timeline-box">
+              <div class="timeline-title">Onboarding & CS – LIV</div>
+              <p style="color: var(--text-muted)">
+                Otimização da jornada do cliente, focando em engajamento e
+                retenção através de dados.
+              </p>
+            </div>
+            <div class="timeline-box">
+              <div class="timeline-title">Recombina Jr. – Liderança</div>
+              <p style="color: var(--text-muted)">
+                Gestão de projetos e desenvolvimento organizacional em ambiente
+                de empresa júnior.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section bg-light">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Universo de Competências</h2>
+          <p class="section-subtitle">
+            Clique nos ícones para explorar minhas habilidades
+          </p>
+        </div>
+
+        <div class="orbit-section">
+          <div class="skill-panel">
+            <button class="panel-close" id="panel-close">×</button>
+            <span class="panel-badge" id="panel-badge">Tech</span>
+            <h3 class="panel-title" id="panel-title">Título</h3>
+            <p class="panel-desc" id="panel-desc">Descrição da habilidade.</p>
+          </div>
+
+          <div class="orbit-wrapper">
+            <div class="orbit-center">
+              <div
+                style="font-size: 0.9rem; opacity: 0.8; margin-bottom: 0.5rem"
+              ></div>
+              CORE SKILLS
+            </div>
+
+            <div class="orbit-spinner">
+              <div
+                class="orbit-item pos-1"
+                data-title="Python Avançado"
+                data-tag="Back-end"
+                data-desc="Scripts de automação, análise com Pandas e APIs robustas com FastAPI."
+              >
+                <div class="orbit-icon-inner">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M12 2c-5.523 0-10 4.477-10 10s4.477 10 10 10 10-4.477 10-10-4.477-10-10-10z"
+                    />
+                    <path d="M9 12l2 2 4-4" />
+                  </svg>
+                  <span>Python</span>
+                </div>
+              </div>
+              <div
+                class="orbit-item pos-2"
+                data-title="Inteligência de Dados"
+                data-tag="Analytics"
+                data-desc="ETL, modelagem de dados e Dashboards no Power BI."
+              >
+                <div class="orbit-icon-inner">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"
+                    />
+                    <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+                    <line x1="12" y1="22.08" x2="12" y2="12" />
+                  </svg>
+                  <span>Dados</span>
+                </div>
+              </div>
+              <div
+                class="orbit-item pos-3"
+                data-title="Customer Success"
+                data-tag="Negócios"
+                data-desc="Foco total na experiência do usuário e retenção."
+              >
+                <div class="orbit-icon-inner">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                    <circle cx="9" cy="7" r="4" />
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                  </svg>
+                  <span>CS</span>
+                </div>
+              </div>
+              <div
+                class="orbit-item pos-4"
+                data-title="SQL & Bancos"
+                data-tag="Database"
+                data-desc="Consultas complexas e modelagem de bancos relacionais."
+              >
+                <div class="orbit-icon-inner">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <ellipse cx="12" cy="5" rx="9" ry="3" />
+                    <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                    <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+                  </svg>
+                  <span>SQL</span>
+                </div>
+              </div>
+              <div
+                class="orbit-item pos-5"
+                data-title="FastAPI"
+                data-tag="Framework"
+                data-desc="APIs de alta performance com Python."
+              >
+                <div class="orbit-icon-inner">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+                  </svg>
+                  <span>FastAPI</span>
+                </div>
+              </div>
+              <div
+                class="orbit-item pos-6"
+                data-title="Gestão Ágil"
+                data-tag="Soft Skill"
+                data-desc="Liderança de projetos e coordenação de times."
+              >
+                <div class="orbit-icon-inner">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"
+                    />
+                  </svg>
+                  <span>Gestão</span>
+                </div>
+              </div>
+              <div
+                class="orbit-item pos-7"
+                data-title="Web Development"
+                data-tag="Front-end"
+                data-desc="Interfaces web responsivas com HTML5, CSS3 e JS."
+              >
+                <div class="orbit-icon-inner">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <polyline points="16 18 22 12 16 6" />
+                    <polyline points="8 6 2 12 8 18" />
+                  </svg>
+                  <span>WebDev</span>
+                </div>
+              </div>
+              <div
+                class="orbit-item pos-8"
+                data-title="Comunicação"
+                data-tag="Soft Skill"
+                data-desc="Facilitação entre times técnicos e de negócios."
+              >
+                <div class="orbit-icon-inner">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path
+                      d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
+                    />
+                  </svg>
+                  <span>Comun.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-col">
+            <h3>Douglas Galhardo</h3>
+            <p class="footer-bio">
+              Engenheiro de Software em transição, apaixonado por tecnologia e
+              impacto social.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h3>Links Rápidos</h3>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="sobre.html">Sobre Mim</a></li>
+              <li><a href="projetos.html">Projetos</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Conecte-se</h3>
+            <div class="footer-socials">
+              <a
+                href="https://github.com/douglasgalhardo"
+                target="_blank"
+                class="footer-social-btn"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-1.5 6-6.5a5.5 5.5 0 0 0-1.5-4A5.2 5.2 0 0 0 18 2H6a5.2 5.2 0 0 0-1 2.5A5.5 5.5 0 0 0 3.5 8c0 5 3 6.5 6 6.5a4.8 4.8 0 0 0-1 3.5v4"
+                  ></path></svg
+              ></a>
+              <a
+                href="https://linkedin.com/in/douglasgalhardo"
+                target="_blank"
+                class="footer-social-btn"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path
+                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                  ></path>
+                  <rect width="4" height="12" x="2" y="9"></rect>
+                  <circle cx="4" cy="4" r="2"></circle></svg
+              ></a>
+              <a
+                href="mailto:douglasgalhardo1994@gmail.com"
+                class="footer-social-btn"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                  <path
+                    d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"
+                  ></path></svg
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>Feito com <span class="heart">❤</span> por Douglas Galhardo</p>
+          <p>© 2025 Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
